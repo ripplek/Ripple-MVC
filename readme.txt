@@ -1,2 +1,2 @@
 第一次提交
-在分支上修改
+Creating a new branch is quick AND simple

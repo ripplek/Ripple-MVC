@@ -27,7 +27,7 @@
 #import "Notification_Macro.h"
 //Pods
 #import <Masonry.h>
-#import <MJExtension.h>
+#import <YYModel.h>
 
 #endif
 

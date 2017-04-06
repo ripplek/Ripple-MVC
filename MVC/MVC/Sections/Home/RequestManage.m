@@ -30,11 +30,11 @@
 
 - (id)manager:(XAFAPIBaseManager *)manager reformData:(NSDictionary *)data {
     self.errorMessage = [self errorMessageWithErrorType:manager.errorType];
-    return [HomeModel mj_objectWithKeyValues:data];
+    return [HomeModel yy_modelWithJSON:data];
 }
 
 - (BOOL)manager:(XAFAPIBaseManager *)manager isCorrectWithCallBackData:(NSDictionary *)data {
-    HomeModel *model = [HomeModel mj_objectWithKeyValues:data];
+    HomeModel *model = [HomeModel yy_modelWithJSON:data];
     if (!model.data) {
         self.errorMessage = @"返回数据为空";
         return NO;

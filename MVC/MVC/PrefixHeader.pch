@@ -28,6 +28,7 @@
 //Pods
 #import <Masonry.h>
 #import <YYModel.h>
+#import <YYWebImage.h>
 
 #endif
 

@@ -7,7 +7,7 @@ target 'MVC' do
     pod 'AFNetworking', :inhibit_warnings => true
     pod 'Masonry'
     pod 'MBProgressHUD'
-    pod 'SDWebImage'
+    pod 'YYWebImage'
     pod 'MJRefresh'
     pod 'YYModel'
     pod 'FMDB'
